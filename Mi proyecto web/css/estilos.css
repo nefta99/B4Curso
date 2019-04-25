@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/*--------------------------------------------------------------------------
+1.-TIPOGRAFIA DEL SITIO 
+---------------------------------------------*/
+html {
+  font-size: 13px; }
+
+body {
+  font-family: arial;
+  color: #696969; }
+
+/*---------------------------------------------------------------------------------
+SECCION BARRA DE NAVEGACIÓN ".navbar"
+-----------------------------------------------------------------*/
+.btn-buscar {
+  padding: .6rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer; }
+
+/*Estilos dropdown*/
+.dropdown-menu {
+  border: 1px solid #337ab7;
+  border-top-width: 5px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2196078431);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2196078431); }
+
+.dropdown-menu a i {
+  font-size: .85rem;
+  margin-right: .5rem; }
+
+/*--------------------------------------------------------------------------------
+	EMPIEZAN LAS MEDIASQUERY
+------------------------------------------------------------------------------
+*/
+@media (min-width: 768px) {
+  .btn-buscar {
+    padding: 0;
+    font-size: 1.4rem;
+    border-color: transparent;
+    cursor: pointer; } }
+
+/*# sourceMappingURL=estilos.css.map */

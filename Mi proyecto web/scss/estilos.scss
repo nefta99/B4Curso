@@ -1,0 +1,55 @@
+//--------------------------------------------------------
+// PATRONES DE COLORES
+//------------------------------------------
+
+$principal:#337ab7;
+$texto:#696969;
+
+/*--------------------------------------------------------------------------
+1.-TIPOGRAFIA DEL SITIO 
+---------------------------------------------*/
+
+html{
+	font-size: 13px;
+}
+body{
+	font-family: arial;
+	color:$texto;
+}
+/*---------------------------------------------------------------------------------
+SECCION BARRA DE NAVEGACIÓN ".navbar"
+-----------------------------------------------------------------*/
+.btn-buscar{
+    padding: .6rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+/*Estilos dropdown*/
+.dropdown-menu{
+	border: 1px solid $principal;
+	border-top-width: 5px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2196078431372549);
+}
+.dropdown-menu a i{
+	font-size: .85rem;
+	margin-right: .5rem;
+}
+/*--------------------------------------------------------------------------------
+	EMPIEZAN LAS MEDIASQUERY
+------------------------------------------------------------------------------
+*/
+@media(min-width: 768px){
+	.btn-buscar{
+	 	padding: 0;
+	 	font-size: 1.4rem;
+	 	border-color: transparent;
+    	cursor: pointer;
+	}    
+}
